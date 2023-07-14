@@ -13,15 +13,13 @@ int main(void)
 	int k;
 	int m;
 
-for ( i = 0 ; i < 10 ; i++)
+for (i = 0 ; i < 10 ; i++)
 {	
-
 	for (j = 0 ; j <= 10 ; j++)
 	{
-	
 		for (k = 0 ; k < 10 ; k++)
 		{
-			for ( m = 0 ; m < 10 ; m++)
+			for (m = 0 ; m < 10 ; m++)
 			{
 				putchar('0' + i);
 				putchar('0' + j);
