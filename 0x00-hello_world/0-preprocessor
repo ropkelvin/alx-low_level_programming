@@ -1,0 +1,5 @@
+#!/bin/bash
+# This script runs the C preprocessor on the file specified by the environment variable CFILE
+# and redirects the preprocessed output to a file named 'c'.
+# The '-E' option tells gcc to stop after the preprocessing stage.
+gcc -E $CFILE >> c

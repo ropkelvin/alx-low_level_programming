@@ -1,0 +1,5 @@
+#!/bin/bash
+# This script compiles a C source file into an assembly language file.
+# The C source file is specified by the environment variable $CFILE.
+# The -S option tells gcc to stop after the compilation phase and output the assembly code.
+gcc -S $CFILE

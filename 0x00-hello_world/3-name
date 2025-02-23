@@ -1,0 +1,4 @@
+#!/bin/bash
+# This script compiles a C source file specified by the environment variable CFILE
+# using the GNU Compiler Collection (gcc) and outputs an executable named 'cisfun'.
+gcc $CFILE -o cisfun

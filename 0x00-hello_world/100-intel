@@ -1,0 +1,6 @@
+#!/bin/bash
+# This script compiles a C source file into assembly code using the Intel syntax.
+# The environment variable $CFILE should contain the path to the C source file.
+# The -S option tells gcc to compile the source file into assembly code.
+# The -masm=intel option specifies that the assembly code should use Intel syntax.
+gcc -S -masm=intel $CFILE
